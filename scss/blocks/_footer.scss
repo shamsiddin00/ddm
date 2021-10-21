@@ -1,0 +1,54 @@
+.footer{
+    margin-top: 60px;
+    padding: 64px 0 100px 0;
+    background-color: $color-broun;
+}
+
+.footer__content{
+    display: flex; 
+}
+
+.footer__logotipe{
+    max-width: 296px;
+    margin-right: 120px;
+}
+
+.footer__logo-link{
+    margin: 16px;
+}
+
+.footer__subtitle,
+.footer__link{
+    font-family: $font-inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: $color-grey;
+}
+
+.footer__card{
+    max-width: 145px;
+    padding-top: 30px;
+
+    &:not(:last-child){
+        margin-right: 120px;
+    }
+}
+
+.footer__title{
+    font-family: $font-inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-grey;
+    margin-bottom: 24px;
+}
+
+.footer__link{
+    max-width: 100%;
+}
+
+.footer__item{
+    margin-bottom: 24px;
+}
+
