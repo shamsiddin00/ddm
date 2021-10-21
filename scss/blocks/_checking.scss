@@ -1,0 +1,201 @@
+.checking{
+    padding: 50px 0;
+}
+
+.checking__header{
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.checking__title{
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: $font-poppins;
+    color: $color-black;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 38px;
+}
+
+.checking__subtitle{
+    font-family: $font-poppins;
+    color: $color-black;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 68px;
+}
+
+.checking__cover{
+    max-width:280px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checking__text{
+    font-family: $font-poppins;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: $color-black;
+    
+}
+
+.column__cover{
+    max-width: 555px ;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.column__text{
+    font-family: $font-poppins;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: $color-black;
+}
+
+.basic{
+    position: relative;
+    transition: 0.4s ease;
+
+    &::before{
+        content: "";
+        width: 400px;
+        height: 4px;
+        position: absolute;
+        bottom:-20px;
+        background-color: $color-grey;
+        left: -130px;  
+    }
+
+    &:hover::before{
+        background-color: $color-broun;
+    }
+}
+
+.premier{
+    position: relative;
+    transition: 0.4s ease;
+
+    &::before{
+        content: "";
+        width: 400px;
+        height: 4px;
+        position: absolute;
+        bottom:-20px;
+        background-color: $color-grey;
+        right:-75px;
+    }
+
+    &:hover::before{
+        background-color: $color-broun;
+    }
+}
+
+.column__card{
+    padding: 30px 20px 30px 35px;
+    border: 1.5px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 4px $color-black;
+    border-radius: 15px;
+    transform: scale(1);
+    transition: 0.4s ease;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+.column__title{
+    font-family: $font-poppins;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 25px;
+    color: $color-black;
+    margin-bottom: 12px;
+}
+
+.column__subtitle{
+    max-width: 235px;
+    font-family: $font-poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: $color-black;
+    margin-bottom: 28px;
+}
+
+.column__many{
+    font-family: $font-poppins;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 32px;
+    color: $color-black;
+    margin-bottom: 11px;
+}
+
+.column__txt{
+    font-family: $font-poppins;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: $color-black;
+    margin-bottom: 35px;
+}  
+    
+.column__button{
+    max-width: 235px;
+    margin-bottom: 35px;
+}
+
+.column__link{
+    padding: 10px 55px;
+    font-family: $font-poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    color: $color-black;
+    background: #FFFFFF;
+    border: 2px solid $color-black;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-bottom: 35px;
+    transition: 0.4s ease;
+
+    &:hover{
+       
+        border: 2px solid #C4C4C4 ;
+
+    }
+}
+
+.column__item{
+    font-family:$font-inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-dark;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+
+    &::before{
+        content: "";
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        background-image: url("/images/Checkmark.svg");
+        margin-right: 24px;
+    }
+}
+
+
+

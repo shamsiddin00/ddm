@@ -1,0 +1,80 @@
+.hero{
+    padding: 30px 0 100px 0;
+}
+
+.hero__header{
+    padding-bottom: 80px;
+}
+
+.hero__row{
+    @include flex;
+}
+
+.hero__logo{
+    margin-right:auto;
+}
+  
+.hero__list{
+    @include flex;
+}
+
+.hero__list:nth-child(1){
+    margin-right:135px;
+}
+
+.hero__item:nth-child(2){
+    margin-right:33px;
+}
+
+.hero__item:nth-child(3){
+    margin-right:33px;
+}
+
+.hero__item:nth-child(4){
+    margin-right:198px;
+}
+
+.hero__item:nth-child(5){
+    margin-right:88px;
+} 
+
+.hero__link{
+    @include shrift-nav;
+    transition: 0.4s ease;
+
+    &:hover{
+        color: $color-broun;
+    }
+}
+
+.hero__link-tel{
+    @include shrift-nav;
+    transition: 0.4s ease;
+    display: flex;
+    align-items: center;
+
+    &:hover{
+        color: $color-broun;
+    }
+    &::before{
+        content: "";
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        background-image: url("/images/icon-phone.svg");
+        margin-right: 10px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

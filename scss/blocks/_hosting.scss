@@ -1,0 +1,74 @@
+.hosting{
+    padding: 80px 0 ;
+}
+
+.hosting__content{
+    margin-bottom: 100px;
+}
+
+.hosting__title{
+    @include title;
+    margin-bottom: 25px;
+}
+
+.hosting__subtitle{
+    @include subtitle;
+
+}
+
+.hosting__list{
+    width: 642px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.panel,
+.imuniy{
+    margin: 50px 80px 65px 0;
+}
+
+.word{
+    margin-right: 60px;
+}
+
+.soft{
+    margin-right: 30px;
+}
+
+.card{
+    padding: 50px 0;
+}
+
+.card__item::before{
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 0 0 17px 100px;
+}
+
+.clock::before{
+    background-image: url("/images/clock.png");
+
+}.cloud-pink::before{
+    background-image: url("/images/cloud-pink.png");
+
+}.card-pink::before{
+    background-image: url("/images/card-pink.png");
+
+}.naushnik::before{
+    background-image: url("/images/naushnik.png");
+}
+
+.card__title{
+    @include title-cards;
+    text-align: center
+}
+
+.card__subtitle{
+    @include subtitle-cards;
+    text-align: center;
+}
+
+

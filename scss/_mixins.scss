@@ -1,0 +1,62 @@
+@mixin flex{
+  display: flex;
+  align-items: center;
+}
+
+@mixin shrift-nav {
+  font-family: $font-poppins;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: $color-black ;
+}
+
+@mixin shrift-hero-list {
+  font-family:$font-poppins;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: $color-grey;
+}
+
+@mixin title {
+  font-family:$font-inter;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: $color-black;
+}
+
+@mixin subtitle {
+  font-family:$font-inter;
+  font-weight:400;
+  font-size: 18px;
+  line-height: 32px;
+  color: $color-black;
+}
+
+@mixin button {
+  padding: 12px 14px;
+  border-radius: 5px;
+  font-family: $font-poppins;
+  font-size: 14px;
+  line-height: 24px;
+  transition: 0.4s ease;
+}
+
+@mixin title-cards {
+  font-family: $font-poppins;
+  color: $color-black;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  
+}
+
+@mixin subtitle-cards {
+  font-family: $font-inter;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: $color-black;
+}

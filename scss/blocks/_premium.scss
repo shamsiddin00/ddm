@@ -1,0 +1,66 @@
+.premium__discr{
+    padding-left: 30px
+}
+
+.premium__list{
+    @include flex;
+    margin-bottom: 26px;
+}
+
+.premium__item{
+    margin-right: 24px;
+}
+
+.premium__link{
+    @include shrift-hero-list;
+    transition: 0.4s ease;
+
+    &:hover{
+        color: $color-broun;
+    }
+}
+
+.premium__title{
+  font-family: $font-poppins;   
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: $color-dark;
+  margin-bottom: 34px;
+}
+
+.premium__susbtitle{
+    font-family:$font-inter;
+    font-weight:400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    color: $color-dark;
+    margin-bottom: 60px;
+}
+
+.premium__btn-broun{
+    @include button;
+    color: hsl(0, 0%, 100%);
+    background-color: $color-broun;
+    border: 1px solid $color-broun;
+    margin-right: 24px;
+
+    &:hover{
+        color: $color-broun;
+        background-color: hsl(0, 0%, 100%);
+    }
+}
+
+.premium__btn-white{
+    @include button;
+    color: $color-dark;
+    background-color:hsl(0, 0%, 100%);
+    border: 1px solid $color-dark;
+
+    &:hover{
+        color:hsl(0, 0%, 100%);
+        background-color: $color-broun;
+        border: 1px solid $color-broun;
+    }
+} 
